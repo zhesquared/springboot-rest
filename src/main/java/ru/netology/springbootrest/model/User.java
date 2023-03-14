@@ -10,7 +10,6 @@ public class User {
 
     @NotBlank(message = "Required field!")
     private String user;
-
-    @NotBlank(message = "Required field!")
+    @NotBlank(message = "Required field!!")
     private String password;
 }
